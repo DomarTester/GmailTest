@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="665694dd-1978-449f-86c2-3c7204a29ec3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GmailTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.GmailTest.happyPath">
+}</component>
+  <component name="RunManager" selected="TestNG.GmailTest">
+    <configuration name="GmailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GmailTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GmailTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmailTest.happyPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GmailTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,11 +75,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverManagerTest.openBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GmailTest.invalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GmailTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebDriverManagerTest" />
-      <option name="METHOD_NAME" value="openBrowser" />
+      <option name="MAIN_CLASS_NAME" value="GmailTest" />
+      <option name="METHOD_NAME" value="invalidEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmailTest.invalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GmailTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GmailTest" />
+      <option name="METHOD_NAME" value="invalidPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmailTest.notExistGoogleAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GmailTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GmailTest" />
+      <option name="METHOD_NAME" value="notExistGoogleAccount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,8 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GmailTest" />
         <item itemvalue="TestNG.GmailTest.happyPath" />
-        <item itemvalue="TestNG.WebDriverManagerTest.openBrowser" />
+        <item itemvalue="TestNG.GmailTest.invalidEmail" />
+        <item itemvalue="TestNG.GmailTest.invalidPassword" />
+        <item itemvalue="TestNG.GmailTest.notExistGoogleAccount" />
       </list>
     </recent_temporary>
   </component>
