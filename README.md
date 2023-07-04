@@ -6,7 +6,7 @@ In this repository there is code with sample, very basic, gmail.com log in tests
 # Prerequisites
 - JDK installed 
 - Maven installed
-- driver file is not required
+- Driver file is not required
 - English as default language
 
 # Running tests
