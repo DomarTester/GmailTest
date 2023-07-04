@@ -1,7 +1,7 @@
 import org.testng.annotations.Test;
 import Pages.LoggedUserPage;
 import Pages.LoginPage;
-public class MainGmailTest extends BaseTest{
+public class GmailTest extends BaseTest{
 
 
 
