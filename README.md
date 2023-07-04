@@ -25,4 +25,4 @@ I used in my work:
   Webdrivermanager 5.4.0 (io.github.bonigarcia),
   TestNG framework.
 
-  Before runnig the test please make sure you have the correctversion of the software and properly set the environment variables and other necessary settings.
+  Before runnig the tests please make sure you have the correctversion of the software and properly set the environment variables and other necessary settings.
