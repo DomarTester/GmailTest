@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class GmailTest extends BaseTest{
+public class TrialGmailTest extends BaseTest{
 
     @Test (priority = 3)
     public void logINTest (){
@@ -28,7 +28,7 @@ public class GmailTest extends BaseTest{
 
     }
     @Test (priority = 0)
-    public void logInwithInvalidEmailTest () {
+    public void logInWithInvalidEmailTest () {
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("test" + " " + "test");
@@ -49,7 +49,7 @@ public class GmailTest extends BaseTest{
     }
 
     @Test (priority = 2)
-    public void logInwithInvalidPasswordTest () {
+    public void logInWithInvalidPasswordTest () {
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("lukasz.testowy.fake.konto");
