@@ -9,7 +9,7 @@ import java.time.Duration;
 public class GmailTest extends BaseTest{
 
     @Test (priority = 3)
-    public void happyPath (){
+    public void logINTest (){
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("lukasz.testowy.fake.konto");
@@ -28,7 +28,7 @@ public class GmailTest extends BaseTest{
 
     }
     @Test (priority = 0)
-    public void invalidEmail () {
+    public void logInwithInvalidEmailTest () {
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("test" + " " + "test");
@@ -38,7 +38,7 @@ public class GmailTest extends BaseTest{
         driver.findElement(By.xpath("//*[contains(text(), 'Enter a valid email or phone number')]")).isDisplayed();
     }
     @Test (priority = 1)
-    public void notExistGoogleAccount () {
+    public void logInWithNotExistGoogleAccountTest () {
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("jakikolwiekadresmailowyktorynieistnieje");
@@ -49,7 +49,7 @@ public class GmailTest extends BaseTest{
     }
 
     @Test (priority = 2)
-    public void invalidPassword () {
+    public void logInwithInvalidPasswordTest () {
         driver.get("https://www.google.com/intl/pl/gmail/about/");
         driver.findElement(By.cssSelector("[data-action='sign in']")).click();
         driver.findElement(By.id("identifierId")).sendKeys("lukasz.testowy.fake.konto");

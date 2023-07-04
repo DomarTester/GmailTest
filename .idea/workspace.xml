@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="665694dd-1978-449f-86c2-3c7204a29ec3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GmailTest.java" afterDir="false" />
     </list>
@@ -150,13 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688385986581</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GmailTestUpdate">
+      <created>1688396106083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688396106083</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add BaseTest and get login page" />
     <MESSAGE value="GmailTestFinished" />
-    <option name="LAST_COMMIT_MESSAGE" value="GmailTestFinished" />
+    <MESSAGE value="GmailTestUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="GmailTestUpdate" />
   </component>
 </project>
